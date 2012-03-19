@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		232AF05F15171BCE004ED76B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232AF05E15171BCE004ED76B /* UIKit.framework */; };
+		232AF06115171BCE004ED76B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232AF06015171BCE004ED76B /* Foundation.framework */; };
+		232AF06315171BCE004ED76B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232AF06215171BCE004ED76B /* CoreGraphics.framework */; };
+		232AF06915171BCF004ED76B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 232AF06715171BCF004ED76B /* InfoPlist.strings */; };
+		232AF06B15171BCF004ED76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF06A15171BCF004ED76B /* main.m */; };
+		232AF06F15171BCF004ED76B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF06E15171BCF004ED76B /* AppDelegate.m */; };
+		232AF08315171C3A004ED76B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF07C15171C09004ED76B /* MainViewController.m */; };
+		232AF08415171C3A004ED76B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF07E15171C09004ED76B /* MenuViewController.m */; };
+		232AF08515171C3A004ED76B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF08015171C09004ED76B /* DetailViewController.m */; };
+		232AF08615171C3A004ED76B /* FuncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF08215171C09004ED76B /* FuncViewController.m */; };
+		232AF08715171C3A004ED76B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF07715171BF8004ED76B /* BaseViewController.m */; };
+		232AF08815171C3A004ED76B /* YBSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AF07915171BF8004ED76B /* YBSwipeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		232AF05A15171BCE004ED76B /* SwipeMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		232AF05E15171BCE004ED76B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		232AF06015171BCE004ED76B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		232AF06215171BCE004ED76B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		232AF06615171BCF004ED76B /* SwipeMenuDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeMenuDemo-Info.plist"; sourceTree = "<group>"; };
+		232AF06815171BCF004ED76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		232AF06A15171BCF004ED76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		232AF06C15171BCF004ED76B /* SwipeMenuDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeMenuDemo-Prefix.pch"; sourceTree = "<group>"; };
+		232AF06D15171BCF004ED76B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		232AF06E15171BCF004ED76B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		232AF07615171BF8004ED76B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		232AF07715171BF8004ED76B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		232AF07815171BF8004ED76B /* YBSwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBSwipeViewController.h; sourceTree = "<group>"; };
+		232AF07915171BF8004ED76B /* YBSwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBSwipeViewController.m; sourceTree = "<group>"; };
+		232AF07B15171C09004ED76B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		232AF07C15171C09004ED76B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		232AF07D15171C09004ED76B /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		232AF07E15171C09004ED76B /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		232AF07F15171C09004ED76B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		232AF08015171C09004ED76B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		232AF08115171C09004ED76B /* FuncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuncViewController.h; sourceTree = "<group>"; };
+		232AF08215171C09004ED76B /* FuncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuncViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		232AF05715171BCE004ED76B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232AF05F15171BCE004ED76B /* UIKit.framework in Frameworks */,
+				232AF06115171BCE004ED76B /* Foundation.framework in Frameworks */,
+				232AF06315171BCE004ED76B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232AF04F15171BCE004ED76B = {
+			isa = PBXGroup;
+			children = (
+				232AF06415171BCE004ED76B /* SwipeMenuDemo */,
+				232AF05D15171BCE004ED76B /* Frameworks */,
+				232AF05B15171BCE004ED76B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		232AF05B15171BCE004ED76B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				232AF05A15171BCE004ED76B /* SwipeMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		232AF05D15171BCE004ED76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232AF05E15171BCE004ED76B /* UIKit.framework */,
+				232AF06015171BCE004ED76B /* Foundation.framework */,
+				232AF06215171BCE004ED76B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		232AF06415171BCE004ED76B /* SwipeMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				232AF07A15171C00004ED76B /* For Demo */,
+				232AF07515171BD9004ED76B /* Swipe Menu Essential */,
+				232AF06D15171BCF004ED76B /* AppDelegate.h */,
+				232AF06E15171BCF004ED76B /* AppDelegate.m */,
+				232AF06515171BCF004ED76B /* Supporting Files */,
+			);
+			path = SwipeMenuDemo;
+			sourceTree = "<group>";
+		};
+		232AF06515171BCF004ED76B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				232AF06615171BCF004ED76B /* SwipeMenuDemo-Info.plist */,
+				232AF06715171BCF004ED76B /* InfoPlist.strings */,
+				232AF06A15171BCF004ED76B /* main.m */,
+				232AF06C15171BCF004ED76B /* SwipeMenuDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		232AF07515171BD9004ED76B /* Swipe Menu Essential */ = {
+			isa = PBXGroup;
+			children = (
+				232AF07615171BF8004ED76B /* BaseViewController.h */,
+				232AF07715171BF8004ED76B /* BaseViewController.m */,
+				232AF07815171BF8004ED76B /* YBSwipeViewController.h */,
+				232AF07915171BF8004ED76B /* YBSwipeViewController.m */,
+			);
+			name = "Swipe Menu Essential";
+			sourceTree = "<group>";
+		};
+		232AF07A15171C00004ED76B /* For Demo */ = {
+			isa = PBXGroup;
+			children = (
+				232AF07B15171C09004ED76B /* MainViewController.h */,
+				232AF07C15171C09004ED76B /* MainViewController.m */,
+				232AF07D15171C09004ED76B /* MenuViewController.h */,
+				232AF07E15171C09004ED76B /* MenuViewController.m */,
+				232AF07F15171C09004ED76B /* DetailViewController.h */,
+				232AF08015171C09004ED76B /* DetailViewController.m */,
+				232AF08115171C09004ED76B /* FuncViewController.h */,
+				232AF08215171C09004ED76B /* FuncViewController.m */,
+			);
+			name = "For Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232AF05915171BCE004ED76B /* SwipeMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 232AF07215171BCF004ED76B /* Build configuration list for PBXNativeTarget "SwipeMenuDemo" */;
+			buildPhases = (
+				232AF05615171BCE004ED76B /* Sources */,
+				232AF05715171BCE004ED76B /* Frameworks */,
+				232AF05815171BCE004ED76B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeMenuDemo;
+			productName = SwipeMenuDemo;
+			productReference = 232AF05A15171BCE004ED76B /* SwipeMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232AF05115171BCE004ED76B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = KTH;
+			};
+			buildConfigurationList = 232AF05415171BCE004ED76B /* Build configuration list for PBXProject "SwipeMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 232AF04F15171BCE004ED76B;
+			productRefGroup = 232AF05B15171BCE004ED76B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232AF05915171BCE004ED76B /* SwipeMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		232AF05815171BCE004ED76B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232AF06915171BCF004ED76B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232AF05615171BCE004ED76B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232AF06B15171BCF004ED76B /* main.m in Sources */,
+				232AF06F15171BCF004ED76B /* AppDelegate.m in Sources */,
+				232AF08315171C3A004ED76B /* MainViewController.m in Sources */,
+				232AF08415171C3A004ED76B /* MenuViewController.m in Sources */,
+				232AF08515171C3A004ED76B /* DetailViewController.m in Sources */,
+				232AF08615171C3A004ED76B /* FuncViewController.m in Sources */,
+				232AF08715171C3A004ED76B /* BaseViewController.m in Sources */,
+				232AF08815171C3A004ED76B /* YBSwipeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		232AF06715171BCF004ED76B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				232AF06815171BCF004ED76B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		232AF07015171BCF004ED76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		232AF07115171BCF004ED76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		232AF07315171BCF004ED76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeMenuDemo/SwipeMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "SwipeMenuDemo/SwipeMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		232AF07415171BCF004ED76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeMenuDemo/SwipeMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "SwipeMenuDemo/SwipeMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		232AF05415171BCE004ED76B /* Build configuration list for PBXProject "SwipeMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232AF07015171BCF004ED76B /* Debug */,
+				232AF07115171BCF004ED76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		232AF07215171BCF004ED76B /* Build configuration list for PBXNativeTarget "SwipeMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232AF07315171BCF004ED76B /* Debug */,
+				232AF07415171BCF004ED76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232AF05115171BCE004ED76B /* Project object */;
+}
