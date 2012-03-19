@@ -1,0 +1,7 @@
+This is swipe menu demo like as iOS Facebook App.
+
+Structure is so simple you can see.
+
+YBSwipeViewController is menu controller and BaseViewController is based main view controller.
+
+You can swipe and touched menu button in navigation bar.
